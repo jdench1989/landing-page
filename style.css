@@ -7,6 +7,9 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+}
+
+.header-logo {
     color: #f9faf8;
     font-size: 24px;
 }
@@ -14,4 +17,45 @@ body {
 .header-links {
     display: flex;
     gap: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 50px 0;
+    gap: 50px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    max-width: 100%;
+}
+
+.hero-main {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
 }
