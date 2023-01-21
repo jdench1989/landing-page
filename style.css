@@ -24,12 +24,14 @@ body {
 .hero {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 50px 0 50px 0;
-    gap: 50px;
+    gap: 100px;
 }
 
 .hero-text {
     flex: 1;
+    gap: 20px;
 }
 
 .hero-image {
